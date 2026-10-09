@@ -1,0 +1,36 @@
+10-Oct-2026 02:09:29.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.60
+10-Oct-2026 02:09:29.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 9 2026 22:35:59 UTC
+10-Oct-2026 02:09:29.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.60.0
+10-Oct-2026 02:09:29.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+10-Oct-2026 02:09:29.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Oct-2026 02:09:29.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Oct-2026 02:09:29.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21.0.12.1
+10-Oct-2026 02:09:29.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.12.1+1-LTS-4
+10-Oct-2026 02:09:29.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Oct-2026 02:09:29.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\crazy\Downloads\Project_Hub_One_Click\OnlineProjectManagmentTool-Team Rolex\build\tomcat
+10-Oct-2026 02:09:29.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\crazy\Desktop\Dnt\apache-tomcat-10.1.60-windows-x64\apache-tomcat-10.1.60
+10-Oct-2026 02:09:29.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\crazy\Downloads\Project_Hub_One_Click\OnlineProjectManagmentTool-Team Rolex\build\tomcat\conf\logging.properties
+10-Oct-2026 02:09:29.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Oct-2026 02:09:29.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Oct-2026 02:09:29.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Oct-2026 02:09:29.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+10-Oct-2026 02:09:29.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Oct-2026 02:09:29.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+10-Oct-2026 02:09:29.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Oct-2026 02:09:29.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Oct-2026 02:09:29.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Oct-2026 02:09:29.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Oct-2026 02:09:29.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\crazy\Downloads\Project_Hub_One_Click\OnlineProjectManagmentTool-Team Rolex\build\tomcat
+10-Oct-2026 02:09:29.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\crazy\Desktop\Dnt\apache-tomcat-10.1.60-windows-x64\apache-tomcat-10.1.60
+10-Oct-2026 02:09:29.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\crazy\Downloads\Project_Hub_One_Click\OnlineProjectManagmentTool-Team Rolex\build\tomcat\temp
+10-Oct-2026 02:09:29.319 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.16] using APR version [1.7.6].
+10-Oct-2026 02:09:29.370 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.8 25 Aug 2026]
+10-Oct-2026 02:09:29.995 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Oct-2026 02:09:30.046 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1272] milliseconds
+10-Oct-2026 02:09:30.158 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Oct-2026 02:09:30.159 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.60]
+10-Oct-2026 02:09:30.188 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\crazy\Downloads\Project_Hub_One_Click\OnlineProjectManagmentTool-Team Rolex\build\tomcat\webapps\ProjectHub]
+10-Oct-2026 02:09:31.511 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Oct-2026 02:09:31.614 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\crazy\Downloads\Project_Hub_One_Click\OnlineProjectManagmentTool-Team Rolex\build\tomcat\webapps\ProjectHub] has finished in [1,425] ms
+10-Oct-2026 02:09:31.624 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Oct-2026 02:09:31.683 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1634] milliseconds
