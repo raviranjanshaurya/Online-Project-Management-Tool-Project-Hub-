@@ -1,7 +1,6 @@
 import java.nio.file.*;
 import java.sql.*;
 
-
 public final class DatabaseBootstrap {
     public static void main(String[] args) throws Exception {
         String user = System.getenv("PM_DB_USER");
