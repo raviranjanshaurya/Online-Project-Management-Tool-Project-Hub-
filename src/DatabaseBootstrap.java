@@ -1,7 +1,7 @@
 import java.nio.file.*;
 import java.sql.*;
 
-/** Creates the database and tables directly through JDBC; no mysql.exe needed. */
+
 public final class DatabaseBootstrap {
     public static void main(String[] args) throws Exception {
         String user = System.getenv("PM_DB_USER");
