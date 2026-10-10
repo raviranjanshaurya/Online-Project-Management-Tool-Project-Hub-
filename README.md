@@ -1,6 +1,6 @@
 # Project Hub Pro — GUVI Online Project Management Tool
 
-## One-click Windows setup
+## Windows setup
 
 1. Install and start **MySQL Server 8+** and extract **Apache Tomcat 10.1** anywhere under Desktop, Documents, Downloads, or common installation directories.
 2. Extract this complete ZIP, including `src`, `web`, `lib`, and `database.sql`.
@@ -9,7 +9,7 @@
 
 The launcher discovers a compatible JDK (17+), sets `JAVA_HOME`/`JRE_HOME` for its own process (not system-wide), and downloads Temurin 21 into `tools/jdk` if needed (internet required). It discovers Tomcat, builds Java, executes the idempotent database schema via bundled MySQL JDBC driver (no `mysql.exe` or MySQL Workbench required), deploys the app and starts Tomcat. Existing database records are retained.
 
-**Limitations:** No program can run on literally every old JDK: this Tomcat 10.1/Jakarta Servlet project requires Java 11+, and the included launcher uses JDK 17+ to compile reliably. It does not install MySQL Server or Tomcat; these must be installed/extracted and MySQL must be running locally at `127.0.0.1:3306`. Tomcat needs permission to write to its `webapps` folder, and port 8080 must be free. Java downloads require internet. Credentials need `CREATE DATABASE` and table permissions for the initial run. Keep project folders together.
+**Limitations:** This Tomcat 10.1/Jakarta Servlet project requires Java 11+, and the included launcher uses JDK 17+ to compile reliably. It does not install MySQL Server or Tomcat; these must be installed/extracted and MySQL must be running locally at `127.0.0.1:3306`. Tomcat needs permission to write to its `webapps` folder, and port 8080 must be free. Java downloads require internet. Credentials need `CREATE DATABASE` and table permissions for the initial run. Keep project folders together.
 
 ## GUVI project functions
 
@@ -31,6 +31,6 @@ The launcher does **not** write the database password to source files or system-
 - No download connection: preinstall a 17+ JDK and ensure `javac.exe` is available, or set `JAVA_HOME`.
 - If website fails to load, inspect `Tomcat/logs`.
 
-### Run on another laptop
+### To Run
 
 Copy the entire project folder or ZIP. Install MySQL Server and Tomcat 10.1 and launch `START_PROJECT.bat` to create a fresh schema; no system JAVA_HOME configuration or manual SQL commands required.
